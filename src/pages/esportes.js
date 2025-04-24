@@ -1,5 +1,13 @@
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 export default function Esportes() {
-    return <>
-    Bem vindo aos esportes
-    </>
+  return (
+    <Container>
+      <Row>
+        <Col>Bem vindo aos Esportes</Col>
+      </Row>
+    </Container>
+  );
 }
