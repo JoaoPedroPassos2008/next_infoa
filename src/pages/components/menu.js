@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export default function Menu() {
   return (
-    <Navbar  bg="dark" data-bs-theme="dark" expand="lg">
+    <Navbar bg="dark" data-bs-theme="dark" expand="lg">
       <Container>
         <Navbar.Brand href="#/">Info A</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -14,8 +14,9 @@ export default function Menu() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/esportes">Esportes</Nav.Link>
             <Nav.Link href="/usestate">UseState</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            <NavDropdown title="ReactHook´s" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/usestate">UseState</NavDropdown.Item>
+              <NavDropdown.Item href="/useeffect">Useeffect</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>
