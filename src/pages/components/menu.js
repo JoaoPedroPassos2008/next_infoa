@@ -26,8 +26,9 @@ export default function Menu() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Noticias" id="noticias">
-              <NavDropdown.Item href="/cadastro/noticia">Cadastro Notícia</NavDropdown.Item>
+            <NavDropdown title="FuncaoNext" id="funcaonext">
+              <NavDropdown.Item href="/funcaonext/gssp">getServerSideProps</NavDropdown.Item>
+              <NavDropdown.Item href="/funcaonext/gssp2">getServerSideProps-2</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
